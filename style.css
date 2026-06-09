@@ -1,0 +1,27 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  color: blue;
+}
+
+/*p + a {
+  font-weight: bold;
+  color: red;
+}*/
+
+/*Seletor irmão que todos os links depois do paragrafo vai assumir este css*/
+/*p ~ a {
+  font-weight: bold;
+  color: red;
+}
+*/
+/*p > a {
+  font-weight: bold;
+  color: blue;
+}*/
+
+div a {
+  color: pink;
+}
