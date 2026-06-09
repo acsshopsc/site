@@ -1,4 +1,4 @@
-* {
+/* {
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -6,22 +6,60 @@ p {
   color: blue;
 }
 
-/*p + a {
-  font-weight: bold;
-  color: red;
-}*/
-
-/*Seletor irmão que todos os links depois do paragrafo vai assumir este css*/
-/*p ~ a {
+p + a {
   font-weight: bold;
   color: red;
 }
-*/
-/*p > a {
+
+Seletor irmão que todos os links depois do paragrafo vai assumir este css
+p ~ a {
+  font-weight: bold;
+  color: red;
+}
+
+p > a {
   font-weight: bold;
   color: blue;
-}*/
+}
 
 div a {
   color: pink;
 }
+*/
+
+/*p {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+p {
+  border: 1px solid #000;
+}
+
+.in-line {
+  display: inline-block;
+  margin-top: 20px;
+}
+.block {
+  display: block;
+}
+
+.display-block {
+  display: block;
+  height: 200px;
+  background-color: blue;
+  border: 1px solid #000;
+}
+
+.display-inline {
+  display: inline;
+  background-color: aqua;
+  border: #000;
+}
+
+.display-inline-block {
+  display: inline-block;
+  background-color: pink;
+  border: 1px solid #0000;
+}*/
