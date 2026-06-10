@@ -1,3 +1,71 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: auto 1fr;
+}
+
+.header {
+  background-color: rgba(86, 7, 151, 0.133);
+  padding: 20px;
+}
+
+.sidebar {
+  background-color: blueviolet;
+  padding: 20px;
+}
+
+.content {
+  background-color: #ffffff;
+}
+
+/*.header {
+  background-color: yellow;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  border: solid 1px #0000;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.relativo {
+  position: relative;
+  height: 100px;
+  background-color: blue;
+}
+
+.absoluto {
+  position: absolute;
+  height: 50px;
+  background-color: red;
+  top: 0px;
+  right: 10px;
+  width: 20px;
+}
+
+.fixed {
+  width: 50px;
+  height: 50px;
+  background-color: blueviolet;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}*/
+
+/*body {
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.imagem-flutuante {
+  float: left;
+  width: 100px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.subtitulo {
+  clear: both;
+}*/
 /* {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -11,8 +79,8 @@ p + a {
   color: red;
 }
 
-Seletor irmão que todos os links depois do paragrafo vai assumir este css
-p ~ a {
+/*Seletor irmão que todos os links depois do paragrafo vai assumir este css*/
+/*p ~ a {
   font-weight: bold;
   color: red;
 }
